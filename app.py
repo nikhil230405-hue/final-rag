@@ -72,7 +72,7 @@ Question: {question}
 # ----------------------------
 # STREAMLIT UI
 # ----------------------------
-st.title("📘 Simple University FAQ RAG Chatbot (Groq + FAISS)")
+st.title("📘 University FAQ RAG Chatbot (Groq + FAISS)")
 st.write("Upload your PDF and ask any question.")
 
 pdf = st.file_uploader("Upload your FAQ PDF", type="pdf")
